@@ -25,6 +25,9 @@ This is a **full-stack doctor appointment booking application** built with **Nex
 
    ```bash
    git clone https://github.com/akhtarhssn/appointly.git
+   ```
+
+   ```bash
    cd appointly
    ```
 
