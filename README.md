@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Doctor Appointment Booking App (Next.js)
 
-## Getting Started
+This is a **full-stack doctor appointment booking application** built with **Next.js**. The platform provides a seamless experience for patients to book appointments, doctors to manage schedules, and admins to oversee the system.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Patient Dashboard** – Book, manage, and track appointments.
+- **Doctor Dashboard** – View and manage patient appointments.
+- **Admin Panel** – Oversee doctors, patients, and system settings.
+- **Secure Authentication** – User roles with protected routes.
+- **Real-time Notifications** – Keep users updated on appointment status.
+- **Responsive Design** – Optimized for all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API routes, Node.js, Express
+- **Database:** MongoDB
+- **Authentication:** NextAuth / JWT
+- **Deployment:** Vercel / DigitalOcean / AWS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/akhtarhssn/appointly.git
+   cd appointly
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Set up environment variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Create a .env.local file and configure necessary environment variables.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open <http://localhost:3000> in your browser.
